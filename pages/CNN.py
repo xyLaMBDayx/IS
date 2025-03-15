@@ -10,7 +10,7 @@ from PIL import Image
 classPred = ['Dog','Cat']
 
 # Load the trained model
-model = tensorflow.keras.models.load_model("cnn nueral/CNN_MODEL.h5")
+model = tensorflow.keras.models.load_model("pages/cnn nueral/CNN_MODEL.h5")
 
 # Streamlit UI
 st.title("CNN Cat and Dog Classifier")

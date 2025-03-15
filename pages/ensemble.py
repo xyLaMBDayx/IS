@@ -46,7 +46,7 @@ scc_cat = ["no","yes"]
 calc_cat = ["no","Sometimes","Frequently","Always"]
 mtrans_cat = ["Walking","Bike","Public_Transportation","Automobile","Motorbike"]
 
-data = pd.read_csv("pages\ensemble\OB.csv")
+data = pd.read_csv("pages/ensemble/OB.csv")
 random_row = data.sample(n=1).iloc[0]
 
 st.title("Obesity Prediction Model")
