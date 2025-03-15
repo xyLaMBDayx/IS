@@ -7,9 +7,9 @@ import numpy as np
 #x = st.slider("Select a value")
 #st.write(x, "squared is", x * x)
 
-knn_path = "ensemble\knn_model.sav"
-svm_path = "ensemble\svm_model.sav"
-d3_path = "ensemble\D3_model.sav"
+knn_path = "ensemble/knn_model.sav"
+svm_path = "ensemble/svm_model.sav"
+d3_path = "ensemble/D3_model.sav"
 
 knn = joblib.load(knn_path)
 svm = joblib.load(svm_path)
